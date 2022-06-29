@@ -1,0 +1,14 @@
+*.log
+.*cache/
+
+/.env
+
+/.venv/
+__pycache__/
+
+/.coverage
+/htmlcov/
+
+/docs/*.png
+
+*.tmp

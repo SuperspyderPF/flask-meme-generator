@@ -1,0 +1,30 @@
+{
+  "env": {
+    "PIPENV_COLORBLIND" : {
+      "value": "true"
+    },
+    "PIPENV_NOSPIN" : {
+      "value": "true"
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+
+    "BUGSNAG_API_KEY": {
+      "required": true
+    },
+    "FACEBOOK_APP_ID": {
+      "required": true
+    },
+    "FLASK_ENV": {
+      "required": true
+    },
+    "GOOGLE_ANALYTICS_TID": {
+        "required": true
+    },
+    "WATERMARK_OPTIONS": "herokuapp.com,facebook.com,twitter.com"
+  },
+  "addons":[
+    "papertrail"
+  ]
+}
